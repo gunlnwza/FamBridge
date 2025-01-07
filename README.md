@@ -4,7 +4,25 @@
 
 ## Development Note
 
-ใช้ "python app.py" เพื่อ debug website นะคับ
+### To Debug Website
+
+สำหรับ debug website คับ
+
+1. สร้าง venv
+
+### Window
+
+> python -m venv venv
+> venv\Scripts\activate
+> pip install -r requirements.txt
+
+### Mac
+
+> python -m venv venv
+> source venv/bin/activate
+> pip install -r requirements.txt
+
+2. ใช้ "python app.py"
 
 > python app.py
 
