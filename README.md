@@ -2,9 +2,9 @@
 
 ***
 
-## Development Note
+# Development Note
 
-### To Debug Website
+## To Debug Website
 
 สำหรับ debug website คับ
 
@@ -12,19 +12,19 @@
 
 ### Window
 
-> python -m venv venv
-> 
-> venv\Scripts\activate
->
-> pip install -r requirements.txt
+```
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 ### Mac
 
-> python -m venv venv
->
-> source venv/bin/activate
->
-> pip install -r requirements.txt
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 2. ใช้ "python app.py"
 
@@ -32,7 +32,7 @@
 
 ***
 
-## TODO: (คร่าวๆ, to be updated)
+# TODO: (คร่าวๆ, to be updated)
 
 - Home Page
     - Hero
