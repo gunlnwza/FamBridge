@@ -2,6 +2,14 @@
 
 ***
 
+## Development Note
+
+ใช้ "python app.py" เพื่อ debug website นะคับ
+
+> python app.py
+
+***
+
 ## TODO: (คร่าวๆ, to be updated)
 
 - Home Page
