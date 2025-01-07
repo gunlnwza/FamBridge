@@ -28,7 +28,9 @@ pip install -r requirements.txt
 
 2. ใช้ "python app.py"
 
-> python app.py
+```
+python app.py
+```
 
 ***
 
