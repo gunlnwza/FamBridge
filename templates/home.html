@@ -12,10 +12,10 @@
     <header>
         <nav>  
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="aboutUs.html">About us</a></li>
-                <li><a href="chat.html">ปรึกษาน้องเชื่อมใจ(Chatbot)</a></li>
-                <li><a href="finding.html">ปรึกษา/หาทนาย</a></li>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('aboutUs') }}">About us</a></li>
+                <li><a href="{{ url_for('chat') }}">ปรึกษาน้องเชื่อมใจ(Chatbot)</a></li>
+                <li><a href="{{ url_for('finding') }}">ปรึกษา/หาทนาย</a></li>
             </ul>
         </nav>
     </header>
