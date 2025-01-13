@@ -1,4 +1,5 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, request, render_template, redirect, session, url_for
+from werkzeug.security import generate_password_hash
 
 app = Flask(__name__)
 
@@ -18,12 +19,27 @@ def chat():
 def finding():
     return render_template("finding.html")
 
+@app.route("/signup", methods=["GET", "POST"])
+def signup():
+    if request.method == "POST":
+        email = request.form.get("email")
+        password = request.form.get("password")
+
+        if not (email and password):
+            return render_template("signUp.html", message="All fields are required.")
+
+        hashed_password = generate_password_hash(password)
+
+        # store user data in db
+        # TODO: db insertion code here
+        print("insert", email, hashed_password)
+
+        return redirect("/login")
+
+    return render_template("signUp.html")
+
 @app.route("/login")
 def login():
     return render_template("login.html")
-
-@app.route("/sign_up")
-def sign_up():
-    return render_template("signUp.html")
 
 app.run(debug=True)

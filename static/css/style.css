@@ -49,3 +49,9 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
+/* Added by Gun */
+
+.login_signup_form {
+    background: #DDD;
+}
