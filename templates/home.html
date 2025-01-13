@@ -13,9 +13,14 @@
         <nav>  
             <ul>
                 <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('aboutUs') }}">About us</a></li>
+                <li><a href="{{ url_for('about_us') }}">About us</a></li>
                 <li><a href="{{ url_for('chat') }}">ปรึกษาน้องเชื่อมใจ(Chatbot)</a></li>
                 <li><a href="{{ url_for('finding') }}">ปรึกษา/หาทนาย</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('sign_up') }}">Signup</a></li>
             </ul>
         </nav>
     </header>
