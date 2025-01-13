@@ -1,21 +1,6 @@
-/* header {
-    background-color: beige;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-} 
-    */
-
 body {
     font-family: Arial, sans-serif;
-    margin: 0;                          /*no dounderies*/
+    margin: 0;
     padding: 0;
     line-height: 1.6;
 }
